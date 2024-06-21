@@ -30,17 +30,17 @@ As the network grows, the minimum hardware requirements will also grow. It is re
 
 ## Prerequisites
 
-- [Golang v1.18+ linux/amd64](https://go.dev/dl/)
+- [Golang v1.20+ linux/amd64](https://go.dev/dl/)
 
   {{< details "Installing Go for macOS & Linux" >}}
   Go releases can be found here: [ https://go.dev/dl/ ](https://go.dev/dl/)
 
-  In your browser, you can right-click the correct release (V1.18) and `Copy link`.
+  In your browser, you can right-click the correct release (V1.20) and `Copy link`.
 
   ```bash
   # 1. Download the archive
 
-  wget https://go.dev/dl/go1.18.2.linux-amd64.tar.gz
+  wget https://go.dev/dl/go1.20.14.linux-amd64.tar.gz
 
   # Optional: remove previous /go files:
 
@@ -48,7 +48,7 @@ As the network grows, the minimum hardware requirements will also grow. It is re
 
   # 2. Unpack:
 
-  sudo tar -C /usr/local -xzf go1.18.2.linux-amd64.tar.gz
+  sudo tar -C /usr/local -xzf go1.20.14.linux-amd64.tar.gz
 
   # 3. Add the path to the go-binary to your system path:
   # (for this to persist, add this line to your ~/.profile or ~/.bashrc or  ~/.zshrc)
@@ -59,7 +59,7 @@ As the network grows, the minimum hardware requirements will also grow. It is re
 
   go version
 
-  # go version go1.18.2 linux/amd64
+  # go version go1.20.14 linux/amd64
 
   ```
   {{< /details >}}
